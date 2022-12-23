@@ -18,10 +18,9 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js"
-    // "**/*.{js,jsx,tsx,ts,less,md,json}": [
-    //   "npm run lint"
-    // ]
+    "*.{js,jsx,ts,tsx,css,less}": [
+      "umi lint"
+    ]
   },
   "dependencies": {
     "@ant-design/pro-components": "^2.0.1",
