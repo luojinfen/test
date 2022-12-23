@@ -11,6 +11,11 @@
     "start": "npm run dev",
     "lint:fix": "max lint max lint --fix"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
+  },
   "lint-staged": {
     "**/*.{js,jsx,tsx,ts,less,md,json}": [
       "prettier --write"
