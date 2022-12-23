@@ -6,11 +6,10 @@
     "dev": "max dev",
     "format": "prettier --cache --write .",
     "postinstall": "max setup",
-    // "prepare": "husky install",
+    "prepare": "husky install",
     "setup": "max setup",
     "start": "npm run dev",
-    "lint": "max lint max lint --fix",
-    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx "
+    "lint": "max lint max lint --fix"
   },
   "husky": {
     "hooks": {
