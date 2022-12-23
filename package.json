@@ -9,7 +9,8 @@
     "prepare": "husky install",
     "setup": "max setup",
     "start": "npm run dev",
-    "lint:fix": "max lint max lint --fix"
+    "lint:fix": "max lint max lint --fix",
+    "lint-staged": "lint-staged"
   },
   "husky": {
     "hooks": {
