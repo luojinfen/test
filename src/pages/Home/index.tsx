@@ -12,6 +12,9 @@ console.log('🚀 ~ file: index.tsx:10 ~ parse', stringify({ a: 'sswsw' }));
 import styles from './index.less';
 import DataSet from '@antv/data-set';
 console.log('🚀 ~ file: index.tsx:14 ~ DataSet', DataSet.DataView);
+
+
+
 // console.log('🚀 ~ file: index.tsx:14 ~ DataView', DataView);
 const HomePage: React.FC = () => {
   const { name } = useModel('global');
