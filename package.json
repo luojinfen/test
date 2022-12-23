@@ -2,13 +2,18 @@
   "private": true,
   "author": "",
   "scripts": {
-    "dev": "max dev",
     "build": "max build",
+    "dev": "max dev",
     "format": "prettier --cache --write .",
-    "prepare": "husky install",
     "postinstall": "max setup",
+    "prepare": "husky install",
     "setup": "max setup",
     "start": "npm run dev"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "max lint"
+    ]
   },
   "dependencies": {
     "@ant-design/pro-components": "^2.0.1",
