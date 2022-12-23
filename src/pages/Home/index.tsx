@@ -12,7 +12,7 @@ console.log('🚀 ~ file: index.tsx:10 ~ parse', stringify({ a: 'sswsw' }));
 import styles from './index.less';
 import DataSet from '@antv/data-set';
 
-console.log('🚀 ~ file: index.tsx:14 ~ DataSet', 121232, demo);
+console.log('🚀 ~ file: index.tsx:14 ~ DataSet', 121232, demo12121);
 
 
 
